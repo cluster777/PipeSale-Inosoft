@@ -1,8 +1,9 @@
 <template>
-    <div v-if=store.state.ready>
+    <div v-if=this.$store.state.ready>
+        lalallalalal
     </div>
     <div v-else>
-        <loading>
+        <loading />
     </div>
 </template>
 
@@ -12,6 +13,13 @@ export default {
     components:{
         loading
     },
+    created(){
+        if(!this.$store.state.ready)
+            this.$store.dispatch('getPipe')
+        console.log(this.$store.state.pipeData)
+        
+    }
+
 
 }
 </script>

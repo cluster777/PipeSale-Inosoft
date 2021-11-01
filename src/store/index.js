@@ -11,7 +11,7 @@ export default new Vuex.Store({
   },
   mutations: {
     setPipe(state,data){
-      state.pipeData=data
+      state.pipeData=data.data
       state.ready=true
     }
   },
