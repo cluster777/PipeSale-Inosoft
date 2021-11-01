@@ -1,0 +1,201 @@
+id;code;item_id;qty;qty_unit;country_name;Item code;Item desc;Product type;grade;connection;size
+1;PS-11111;1;283;Ea;Indonesia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+2;PS-11711;3;216;Jts;Australia;40664893;"Sandscreen 5 1/2"", 17 PPF, JFE-13CR-80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+3;HJ-62226;6;108;Jts;Belarus;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+4;PS-11161;2;54;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+5;PS-48961;11;181;Ea;Indonesia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+6;PS-11112;1;428;Ea;United States;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+7;PS-43211;6;131;Jts;Japan;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+8;AU-17944;5;500;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+9;AU-17944;5;400;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+10;PS-11119;3;26;Jts;United States;40664893;"Sandscreen 5 1/2"", 17 PPF, JFE-13CR-80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+11;PS-12394;11;251;Ea;Indonesia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+12;AU-17944;5;290;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+13;PS-11241;4;407;Jts;Indonesia;40044135;"Sandscreen 5 1/2"", 17 PPF, 13CRL80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+14;PS-11654;7;418;Ea;Indonesia;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+15;DZ-81931;6;50;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+16;FQ-88508;5;150;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+17;YK-84064;9;355;Ea;Indonesia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+18;XD-30399;5;300;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+19;GE-96619;5;150;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+20;ZY-36184;5;1000;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+21;EC-43962;2;500;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+22;EC-43962;2;400;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+23;PS-11135;5;471;Jts;Japan;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+24;EC-43962;2;390;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+25;WD-43844;5;100;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+26;WD-43844;5;999999;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+27;GE-96619;5;50;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+28;ZY-36184;5;999;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+29;OX-61619;6;10;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+30;MZ-19149;1;100;Ea;Australia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+31;BN-60965;6;100;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+32;OV-40892;6;3;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+33;PH-12643;2;24234;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+34;PS-11777;5;328;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+35;MJ-83267;6;22;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+36;FH-62364;5;999999;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+37;RW-15384;5;1000;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+38;MZ-35997;6;10;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+39;GS-39709;2;123;Ea;Algeria;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+40;WX-83226;6;10;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+41;WX-83226;6;8;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+42;CV-71485;2;90;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+43;SL-52166;2;90;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+44;TH-20472;2;10;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+45;PS-43211;6;139;Jts;Japan;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+46;TH-20472;2;9;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+47;MJ-83267;6;21;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+48;SL-52166;2;89;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+49;XD-30399;5;999999;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+50;PQ-29281;9;1000;Ea;Australia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+51;FM-21216;10;1;Ea;Indonesia;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+52;TI-96354;6;1025;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+53;GS-39709;2;999999;Ea;Algeria;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+54;TH-20472;2;8;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+55;PS-11261;6;161;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+56;MG-39482;9;9999;Ea;Indonesia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+57;GJ-16224;1;100;Ea;Indonesia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+58;NT-85322;13;12;Ea;Albania;ACCS-0367;"(Scrap) Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+59;XR-15874;1;100;Ea;Australia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+60;BM-16996;6;120;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+61;WD-43844;5;999989;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+62;RW-15384;5;500;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+63;TO-20218;5;3;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+64;JE-98657;5;100;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+65;FH-62364;5;999998;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+66;PS-45696;6;325;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+67;CV-71485;2;40;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+68;SL-52166;2;39;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+69;PS-53671;8;141;Ea;Indonesia;ACCS-0415;"Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+70;PS-11196;7;274;Ea;United States;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+71;XR-15874;1;88;Ea;Australia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+72;PS-11764;9;230;Ea;Indonesia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+73;CV-71485;2;13;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+74;WC-49579;2;20;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+75;YV-86355;2;45;Ea;Andorra;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+76;CZ-18346;6;11;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+77;PS-11681;7;396;Ea;Australia;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+78;WZ-98464;2;22;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+79;GY-40123;3;34;Jts;Australia;40664893;"Sandscreen 5 1/2"", 17 PPF, JFE-13CR-80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+80;GX-70576;4;50;Jts;Australia;40044135;"Sandscreen 5 1/2"", 17 PPF, 13CRL80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+81;IT-33606;8;34;Ea;Australia;ACCS-0415;"Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+82;YI-10945;10;10;Ea;Australia;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+83;JU-78565;11;23;Ea;Australia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+84;RU-47098;10;200;Ea;Australia;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+85;PS-00175;11;3;Ea;Australia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+86;PS-00144;9;989;Ea;Australia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+87;PS-00143;5;9999;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+88;PS-11196;7;286;Ea;United States;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+89;PS-00179;5;6999;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+90;BQ-39775;4;9000;Jts;Indonesia;40044135;"Sandscreen 5 1/2"", 17 PPF, 13CRL80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+91;LX-97941;2;100;Ea;Canada;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+92;RA-42829;5;200;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+93;TI-48047;5;100;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+94;EO-29828;11;901;Ea;Indonesia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+95;FC-62934;9;90;Ea;NULL;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+96;ES-25595;4;150;Jts;Australia;40044135;"Sandscreen 5 1/2"", 17 PPF, 13CRL80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+97;LH-19826;13;NULL;Ea;Indonesia;ACCS-0367;"(Scrap) Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+98;YC-78772;2;12;Ea;Algeria;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+99;PS-11654;7;498;Ea;Indonesia;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+100;MQ-74573;6;9990;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+101;LB-18273;4;2000;Jts;Brazil;40044135;"Sandscreen 5 1/2"", 17 PPF, 13CRL80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+102;KP-60157;5;2000;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+103;XJ-49426;1;9000;Ea;Angola;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+104;PS-00183;5;199;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+105;YB-22998;5;2000;Jts;United States;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+106;HW-36438;10;999000;Ea;Canada;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+107;PS-00182;2;99;Ea;Canada;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+108;SI-82018;13;1000;Ea;Canada;ACCS-0367;"(Scrap) Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+109;PS-00196;10;998910;Ea;Canada;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+110;PS-11112;1;440;Ea;United States;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+111;PS-14566;7;478;Ea;Indonesia;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+112;SU-16200;16;123;Ea;Indonesia;ACCS-0173;"Coupling 4 1/2"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;4 1/2
+113;WV-36228;16;5000;Ea;Indonesia;ACCS-0173;"Coupling 4 1/2"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;4 1/2
+114;YP-46501;18;5900;Ea;Japan;ACCS-0223;"Coupling 5 1/2"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;5 1/2
+115;WI-40632;20;9000;Ea;Indonesia;ACCS-0238;"Coupling 7"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;7
+116;QA-35438;21;4803;Ea;Indonesia;ACCS-0190;"Coupling 9 5/8"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;9 5/8
+117;MV-78992;20;122;Ea;Bahrain;ACCS-0238;"Coupling 7"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;7
+118;IS-62197;19;4000;Ea;Japan;ACCS-0235;"Coupling 5 1/2"", P110, PSL1, BC";Coupling;P110;Threaded & Coupled;5 1/2
+119;ZU-15287;19;1000;Ea;Indonesia;ACCS-0235;"Coupling 5 1/2"", P110, PSL1, BC";Coupling;P110;Threaded & Coupled;5 1/2
+120;PS-53671;8;153;Ea;Indonesia;ACCS-0415;"Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+121;AD-74599;2;200;Ea;United States;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+122;JA-99553;15;200;Ea;United States;ACCS-0140;"Coupling 3 1/2"", 9.2 PPF, JFE-13CR-95, JFEBEAR";Coupling;JFE-13CR-95;Threaded & Coupled;3 1/2
+123;PS-00202;16;33;Ea;Indonesia;ACCS-0173;"Coupling 4 1/2"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;4 1/2
+124;PS-00203;16;4910;Ea;Indonesia;ACCS-0173;"Coupling 4 1/2"", K55, PSL1, BC";Coupling;K55;Threaded & Coupled;4 1/2
+125;PS-00150;9;9989;Ea;Indonesia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+126;KS-99289;5;90;Jts;Indonesia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+127;YF-55835;6;80;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+128;EG-53502;6;1000;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+129;PS-11631;8;346;Ea;United States;ACCS-0415;"Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+130;PS-00151;1;99;Ea;Indonesia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+131;DJ-51900;2;900;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+132;PS-00221;2;700;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+133;YM-24803;22;1000;Jts;Australia;OCTG-0078;"9 5/8"", 47 PPF, P110, PSL1, BC, R3";Sandscreen;P110;Threaded & Coupled;9 5/8
+134;SO-82389;23;500;Jts;United States;OCTG-0079;"9 5/8"", 47 PPF, Q125, VAM TOP, R3";Sandscreen;Q125;Threaded & Coupled;9 5/8
+135;KA-60436;24;2000;Jts;United Arab Emirates;OCTG-0077;"9 5/8"", 53.5 PPF, 13CRL80, PSL1, BC, R3";Sandscreen;L80-13Cr;Threaded & Coupled;9 5/8
+136;MJ-59228;25;800;Jts;United Kingdom;OCTG-0076;"9 5/8"", 53.5 PPF, L80, PSL1, BC, R3";Sandscreen;L80;Threaded & Coupled;9 5/8
+137;WR-71606;2;900;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+138;SQ-47000;2;3400;Ea;Canada;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+139;PS-11436;8;491;Ea;Japan;ACCS-0415;"Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+140;PS-00229;2;2600;Ea;Canada;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+141;PS-00120;2;300;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+142;PS-00113;5;142;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+143;KX-16989;2;1000;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+144;PS-00233;2;900;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+145;KT-12808;2;100;Ea;Argentina;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+146;XP-41874;1;100;Ea;Indonesia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+147;AJ-37000;2;10;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+148;PS-76671;9;165;Ea;Japan;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+149;IT-62865;6;100;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+150;OP-35381;6;100;Jts;Canada;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+151;GB-89323;2;200;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+152;PS-00114;9;343;Ea;Indonesia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+153;HX-51116;23;1000;Jts;Indonesia;OCTG-0079;"9 5/8"", 47 PPF, Q125, VAM TOP, R3";Sandscreen;Q125;Threaded & Coupled;9 5/8
+154;OT-33204;17;100;Ea;Indonesia;ACCS-0141;"Coupling 4 1/2"", P110, PSL1, BC";Coupling;P110;Threaded & Coupled;4 1/2
+155;RC-27358;1;2500;Ea;Papua new Guinea;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+156;YE-48112;11;1000;Ea;Indonesia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+157;PS-11764;9;231;Ea;Indonesia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+158;PH-74920;1;10000;Ea;Indonesia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+159;RI-35373;6;20;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+160;FM-52103;6;10;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+161;PS-00243;2;100;Ea;Australia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+162;EV-59108;6;10;Jts;Australia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+163;PS-17557;9;458;Ea;United States;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+164;PS-85855;9;462;Ea;Australia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+165;PS-76767;9;119;Ea;Indonesia;ACCS-0361;"Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+166;PS-19238;10;387;Ea;Indonesia;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+167;PS-11141;1;287;Ea;Australia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+168;PS-13581;10;253;Ea;Indonesia;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+169;PS-11359;10;154;Ea;Australia;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+170;PS-24955;10;318;Ea;United States;ACCS-0367;"Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+171;PS-85755;11;485;Ea;Japan;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+172;PS-12394;11;326;Ea;Indonesia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+173;PS-12345;11;383;Ea;Australia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+174;PS-48961;11;281;Ea;Indonesia;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+175;PS-96853;11;305;Ea;United States;ACCS-0415;"(Scrap) Pup Joint 5 1/2"", 23 PPF, P110, PSL1, JFEBEAR, PIN x BOX, 2 m";Pup Joint;P110;Threaded & Coupled;5 1/2
+176;PS-12395;12;252;Ea;Australia;ACCS-0361;"(Scrap) Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+177;PS-45845;12;394;Ea;Indonesia;ACCS-0361;"(Scrap) Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+178;PS-11121;1;285;Ea;Indonesia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+179;PS-43253;13;167;Ea;Indonesia;ACCS-0367;"(Scrap) Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+180;PS-35756;13;460;Ea;United States;ACCS-0367;"(Scrap) Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+181;PS-83218;6;222;Jts;United States;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+182;PS-45845;12;385;Ea;Indonesia;ACCS-0361;"(Scrap) Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+183;PS-45845;12;380;Ea;Indonesia;ACCS-0361;"(Scrap) Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+184;PS-12111;3;397;Jts;Japan;40664893;"Sandscreen 5 1/2"", 17 PPF, JFE-13CR-80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+185;IO-18423;1;100;Ea;Australia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+186;IO-18423;1;50;Ea;Australia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+187;PS-45696;6;324;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+188;PS-11777;5;288;Jts;Australia;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+189;PS-11161;2;254;Ea;Indonesia;OCTG-0156;"18 5/8"", 87.5 PPF, K55, PSL1, BC, R3";Casing;K55;Threaded & Coupled;18 5/8
+190;PS-35756;13;448;Ea;United States;ACCS-0367;"(Scrap) Coupling 9 5/8"", 53.5 PPF, P110CY, , VAM 21";Coupling;P110-ICY;Threaded & Coupled;9 5/8
+191;PS-11135;5;401;Jts;Japan;I0858-320-3799;"8 5/8"", 32 PPF, N80-1, PSL1, BC, R3, (SC, SD)";Casing;N80-1;Threaded & Coupled;8 5/8
+192;PS-11711;3;204;Jts;Australia;40664893;"Sandscreen 5 1/2"", 17 PPF, JFE-13CR-80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+193;PS-14566;7;444;Ea;Indonesia;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+194;PS-11111;1;193;Ea;Indonesia;OCTG-0134;"30"", 456.67 PPF, X56, PSL3, LYNX HDHT, R3";Casing;API 5L X60;Conductor;30
+195;PS-14566;7;432;Ea;Indonesia;ACCS-0351;"Pup Joint 13 3/8"", 68 PPF, L80, PSL2, BC, PIN x PIN, 3 m";Pup Joint;L80-1;Threaded & Coupled;13 3/8
+196;PS-45845;12;313;Ea;Indonesia;ACCS-0361;"(Scrap) Coupling 3 1/2"", 9.2 PPF, JFE-HP2-13CR-110, JFEBEAR";Coupling;JFE-HP2-13CR-110;Threaded & Coupled;3 1/2
+197;PS-71111;3;388;Jts;Indonesia;40664893;"Sandscreen 5 1/2"", 17 PPF, JFE-13CR-80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2
+198;LR-78191;6;1000;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+199;CD-59803;6;1000;Jts;Indonesia;OCTG-0091;"13 3/8"", 68 PPF, N80-Q, PSL1, FOX, R3";Casing;N80-Q;Threaded & Coupled;13 3/8
+200;PS-12111;3;407;Jts;Japan;40664893;"Sandscreen 5 1/2"", 17 PPF, JFE-13CR-80, PSL1, JFEBEAR, R3";Sandscreen;JFE-13CR-80;Threaded & Coupled;5 1/2

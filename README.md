@@ -1,4 +1,4 @@
-# pipe
+# Pipe Inosoft coding test
 
 ## Project setup
 ```
@@ -15,10 +15,6 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## data folder
+Contain python program to create Json version of csv saved from xlsx file
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
