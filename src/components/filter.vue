@@ -8,6 +8,7 @@
             :Pipe="this.Pipe" 
             :fieldName="'grade'" 
             :key="'grade'+this.filterGrade+this.filterType+this.filterSize+this.filterConnection" />
+        <div>CLEAR GRADE</div>
         </div>
         <!--"product type" container-->
         <div>
@@ -40,6 +41,7 @@
 <script>
 import dropDown from '@/components/dropDown.vue'
 export default {
+    name:"pipeFilter",
     props:{
         Pipe:[]
     },

@@ -2,6 +2,9 @@
     <div v-if=this.$store.state.ready>
         <Pipefilter :Pipe="this.Pipe"/>
         <div>
+            <hr>
+            {{this.pipeCount}}
+            <hr>
             <div v-for="pipe in filteredPipe" :key="pipe['id']">
                 <item :item=pipe />
             </div>
@@ -18,6 +21,7 @@ import Pipefilter from '@/components/filter.vue'
 import item from '@/components/item.vue'
 
 export default {
+    name:"pipe",
     components:{
         loading,
         Pipefilter,
@@ -44,15 +48,24 @@ export default {
         },
         filterConnection(){
             return this.$route.query.connection
+        },
+        filterAll(){
+            return `${this.filterGrade}|${this.filterType}|${this.filterSize}|${this.filterConnection}`;
+        },
+        pipeCount(){
+            return this.filteredPipe.length
         }
     },
     watch:{
         Pipe:function (val){
             this.filteredPipe=val
+        },
+        filterAll:function(){
+            this.doFilter()
         }
     },
-    method:{
-        doFilter(){
+    methods:{
+        doFilter:function(){
             let pipe=this.Pipe
             if(this.filterGrade)pipe=pipe.filter(p => p["grade"]==this.filterGrade)
             if(this.filterType)pipe=pipe.filter(p => p["Product type"]==this.filterType)
