@@ -2,7 +2,7 @@
     <div v-if=this.$store.state.ready>
         <Pipefilter />
         <div>
-            <div v-for="pipe in filteredPipe" :key="pipe['code']">
+            <div v-for="pipe in filteredPipe" :key="pipe['id']">
                 <item :item=pipe />
             </div>
         </div>

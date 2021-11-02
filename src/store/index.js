@@ -34,8 +34,8 @@ export default new Vuex.Store({
         // find unique data for each listed collumn
         dat.data.forEach(element => {
           uniqueGrade.add(element["grade"])
-          uniqueType.add(element['size'])
-          uniqueSize.add(element["grade"])
+          uniqueType.add(element['Product type'])
+          uniqueSize.add(element["size"])
           uniqueConnection.add(element['connection'])
         });
         // commit the data change
