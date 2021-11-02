@@ -15,7 +15,7 @@
         <dropDown 
             :Pipe="this.Pipe" 
             :fieldName="'Product type'" 
-            :key="'grade'+this.filterGrade+this.filterType+this.filterSize+this.filterConnection" />
+            :key="'type'+this.filterGrade+this.filterType+this.filterSize+this.filterConnection" />
         </div>
         <!--"size" container-->
         <div>
@@ -23,7 +23,7 @@
         <dropDown 
             :Pipe="this.Pipe" 
             :fieldName="'size'" 
-            :key="'grade'+this.filterGrade+this.filterType+this.filterSize+this.filterConnection" />
+            :key="'size'+this.filterGrade+this.filterType+this.filterSize+this.filterConnection" />
         </div>
         <!--"connection" container-->
         <div>
@@ -31,7 +31,7 @@
         <dropDown 
             :Pipe="this.Pipe" 
             :fieldName="'connection'" 
-            :key="'grade'+this.filterGrade+this.filterType+this.filterSize+this.filterConnection" />
+            :key="'connection'+this.filterGrade+this.filterType+this.filterSize+this.filterConnection" />
         </div>
 
     </div>

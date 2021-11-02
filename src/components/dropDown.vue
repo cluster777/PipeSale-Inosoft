@@ -41,6 +41,13 @@ export default {
     methods:{
         goTo(query){
             console.log(query,this.fieldName)
+            this.$router.push({path:'',query:{
+                    grade:this.fieldName=="grade" ? query : this.filterGrade,
+                    type:this.fieldName=="Product type" ? query : this.filterType,
+                    size:this.fieldName=="size" ? query : this.filterSize ,
+                    connection:this.fieldName=="connection" ? query : this.filterConnection
+                }
+            })
         }
     },
     mounted(){
@@ -52,7 +59,7 @@ export default {
             if(this.filterType)pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
             if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
         }
-        else if(this.fieldName=="type"){
+        else if(this.fieldName=="Product type"){
             if(this.filterGrade)pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
             if(this.filterSize)pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
             if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
