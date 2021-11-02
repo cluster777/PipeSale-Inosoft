@@ -1,31 +1,38 @@
 <template>
-    <div>
+    <div class="container">
         <!--Image-->
-        <div>
+        <div class="image">image goes here
         </div>
         <!--content-->
-        <div>
-            <!--type-->
-            <div>{{item['Product type']}}
-            </div>
-            <!--description-->
-            <div>{{item['Item desc']}}
-            </div>
-            <!--size-->
-            <div>{{item['size']}}
+        <div class="content">
+            <div class="top">
+                <!--type-->
+                <div>
+                    {{item['Product type']}}
+                </div>
+                <!--description-->
+                <div>
+                    {{item['Item desc']}}
+                </div>
+                <!--size-->
+                <div>
+                    {{item['size']}}
+                </div>
             </div>
             <hr>
-            <!--qty+unit-->
-            <div>{{item['qty']}} {{item['qty_unit']}}
-            </div>
-            <!--country-->
-            <div>{{item['country_name']}}
-            </div>
-            <!--item Code-->
-            <div>{{item['Item code']}}
-            </div>
-            <!--connection-->
-            <div>{{item['connection']}}
+            <div class="bottom">
+                <!--qty+unit-->
+                <div>{{item['qty']}} {{item['qty_unit']}}
+                </div>
+                <!--country-->
+                <div>{{item['country_name']}}
+                </div>
+                <!--item Code-->
+                <div>{{item['Item code']}}
+                </div>
+                <!--connection-->
+                <div>{{item['connection']}}
+                </div>
             </div>
 
         </div>
@@ -41,5 +48,28 @@ export default {
 </script>
 
 <style scoped>
+.container{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    align-items: center;
+    border:solid 2px black;
+}
+.content{
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px black solid;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 </style>

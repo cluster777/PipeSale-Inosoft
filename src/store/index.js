@@ -16,11 +16,11 @@ export default new Vuex.Store({
   mutations: {
     setPipe(state,payload){
       console.log(payload)
-      state.pipeData=payload.pipe
-      state.grade=payload.uniqueGrade
-      state.type=payload.uniqueType
-      state.size=payload.uniqueSize
-      state.connection=payload.uniqueConnection
+      state.pipeData=payload.pipe.sort()
+      state.grade=payload.uniqueGrade.sort()
+      state.type=payload.uniqueType.sort()
+      state.size=payload.uniqueSize.sort()
+      state.connection=payload.uniqueConnection.sort()
       state.ready=true
     }
   },

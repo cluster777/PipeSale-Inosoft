@@ -76,7 +76,12 @@ export default {
     },
     created(){
         if(!this.$store.state.ready)
-            this.$store.dispatch('getPipe')     
+            this.$store.dispatch('getPipe')
+           
+    },
+    beforeUpdate(){
+        this.doFilter() 
     }
+    
 }
 </script>

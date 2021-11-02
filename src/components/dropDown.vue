@@ -1,7 +1,12 @@
 <template>
-    <div>
-        <div v-for="option in options" :key="option.value+option.count" :value="option.value" :count="option.count" v-on:click="goTo(option.value)" >
-            {{option.value}} {{option.count}}
+    <div class="container">
+        <div class="dropDownContainer">
+            <div v-for="option in options"  class="dropDownItem"
+                :key="option.value+option.count" 
+                :value="option.value" 
+                :count="option.count" v-on:click="goTo(option.value)" >
+                <div>{{option.value}}</div> <div>{{option.count}}</div>
+            </div>
         </div>
     </div>
 </template>
@@ -94,3 +99,25 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.container{
+    position:absolute;
+}
+.dropDownContainer{
+    border-radius: 20px;
+    position: relative;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: black;
+    padding:  20px 0 20px 0;
+}
+.dropDownItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px 5px 10px;
+}
+</style>
