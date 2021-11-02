@@ -7,18 +7,38 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     pipeData:[],
+    grade:[],       //contain unique grade
+    type:[],        //contain unique type
+    size:[],        //contain unique size
+    connection:[],  //contain unique connection
     ready:false
   },
   mutations: {
-    setPipe(state,data){
-      state.pipeData=data.data
+    setPipe(state,pipe,uniqueGrade,uniqueType,uniqueSize,uniqueConnection){
+      state.pipeData=pipe
+      state.grade=Array.from(uniqueGrade)
+      state.type=Array.from(uniqueType)
+      state.size=Array.from(uniqueSize)
+      state.connection=Array.from(uniqueConnection)
       state.ready=true
     }
   },
   actions: {
     getPipe({commit}){
       axios.get("http://localhost:8080/pipe.json").then((dat)=>{
-        commit('setPipe',dat)
+        
+        let uniqueGrade=new Set()
+        let uniqueType=new Set()
+        let uniqueSize=new Set()
+        let uniqueConnection=new Set()
+        // find unique data for each listed collumn
+        dat.data.forEach(element => {
+          uniqueGrade.add(element["grade"])
+          uniqueType.add(element['size'])
+          uniqueSize.add(element["grade"])
+          uniqueConnection.add(element['connection'])
+        });
+        commit('setPipe',dat.data,uniqueGrade,uniqueType,uniqueSize,uniqueConnection)
       })
     }
   },
