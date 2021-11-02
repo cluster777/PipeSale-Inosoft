@@ -16,10 +16,10 @@ export default new Vuex.Store({
   mutations: {
     setPipe(state,pipe,uniqueGrade,uniqueType,uniqueSize,uniqueConnection){
       state.pipeData=pipe
-      state.grade=uniqueGrade
-      state.type=uniqueType
-      state.size=uniqueSize
-      state.connection=uniqueConnection
+      state.grade=Array.from(uniqueGrade)
+      state.type=Array.from(uniqueType)
+      state.size=Array.from(uniqueSize)
+      state.connection=Array.from(uniqueConnection)
       state.ready=true
     }
   },
@@ -38,8 +38,7 @@ export default new Vuex.Store({
           uniqueSize.add(element["grade"])
           uniqueConnection.add(element['connection'])
         });
-        // commit the data change
-        commit('setPipe',dat.data,[...uniqueGrade],[...uniqueType],[...uniqueSize],[...uniqueConnection])
+        commit('setPipe',dat.data,uniqueGrade,uniqueType,uniqueSize,uniqueConnection)
       })
     }
   },
