@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import pipe from '@/components/pipe.vue'
 
-import pipe from '@/components/Pipe.vue'
 Vue.use(VueRouter)
 
 const routes = [
