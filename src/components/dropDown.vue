@@ -1,19 +1,17 @@
 <template>
     <div>
-        <div v-for="option in options" :key="option" :value="option.value" :count="option.count" v-on:click="$emit('setParentValue', value)">
+        <div v-for="option in options" :key="option.value+option.count" :value="option.value" :count="option.count" v-on:click="goTo(option.value)" >
+            {{option.value}} {{option.count}}
+        </div>
     </div>
 </template>
 
 <script>
 export default {
     props:{
-        pipe:[],
+        Pipe:[],
         filteredPipe:[],
-        fieldName:"",
-        filterGrade:"",
-        filterType:"",
-        filterSize:"",
-        filterConnection:""
+        fieldName: String
     },
     data:function (){
         return {
@@ -25,31 +23,49 @@ export default {
             if(this.fieldName=="grade")return this.$store.state.grade
             else if(this.fieldName=="Product type")return this.$store.state.type
             else if(this.fieldName=="size")return this.$store.state.size
-            else if(this.fieldName=="connection")return this.$store.state.connection
+            else return this.$store.state.connection
+        },
+        filterGrade(){
+            return this.$route.query.grade
+        },
+        filterType(){
+            return this.$route.query.type
+        },
+        filterSize(){
+            return this.$route.query.size
+        },
+        filterConnection(){
+            return this.$route.query.connection
         }
     },
-    beforeMount(props){
-        let pipeFiltered=props.pipe
+    methods:{
+        goTo(query){
+            console.log(query,this.fieldName)
+        }
+    },
+    mounted(){
+
+        let pipeFiltered=this.Pipe
         //filter using the one not in the fieldname
-        if(props.fieldName=="grade"){
-            if(pipe["size"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==props.filterSize)
-            if(pipe["Product type"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==props.filterType)
-            if(pipe["connection"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==props.filterConnection)
+        if(this.fieldName=="grade"){
+            if(this.filterSize)pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
+            if(this.filterType)pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
+            if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
         }
-        else if(props.fieldName=="type"){
-            if(pipe["grade"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==props.filterGrade)
-            if(pipe["size"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==props.filterSize)
-            if(pipe["connection"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==props.filterConnection)
+        else if(this.fieldName=="type"){
+            if(this.filterGrade)pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
+            if(this.filterSize)pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
+            if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
         }
-        else if(props.fieldName=="size"){
-            if(pipe["grade"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==props.filterGrade)
-            if(pipe["Product type"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==props.filterType)
-            if(pipe["connection"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==props.filterConnection)
+        else if(this.fieldName=="size"){
+            if(this.filterGrade)pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
+            if(this.filterType)pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
+            if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
         }
-        else if(props.fieldName=="connection"){
-            if(pipe["grade"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==props.filterGrade)
-            if(pipe["size"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==props.filterSize)
-            if(pipe["Product type"]!="")pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==props.filterType)
+        else if(this.fieldName=="connection"){
+            if(this.filterGrade)pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
+            if(this.filterSize)pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
+            if(this.filterType)pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
         }
         //count each occurence
         let res=this.UniqueField.reduce((obj,key)=>{
@@ -57,11 +73,11 @@ export default {
             return obj
         },{})
         pipeFiltered.forEach(element => {
-            res[element[props.fieldName]]+=1
+            res[element[this.fieldName]]+=1
         });
         let options=[]
         for(let key in res){
-            options.append({
+            options.push({
                 value:key,
                 count:res[key]
             })
