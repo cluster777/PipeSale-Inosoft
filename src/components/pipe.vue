@@ -5,8 +5,9 @@
             <hr>
             {{this.pipeCount}}
             <hr>
-            <div v-for="pipe in filteredPipe" :key="pipe['id']">
-                <item :item=pipe />
+            <div class="pipeItems">
+            <item v-for="pipe in filteredPipe" :key="pipe['id']"
+                :item="pipe" />
             </div>
         </div>
     </div>
@@ -85,3 +86,11 @@ export default {
     
 }
 </script>
+
+<style scoped>
+.pipeItems{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+</style>

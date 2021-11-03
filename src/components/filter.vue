@@ -2,12 +2,13 @@
     <!--container-->
     <div class="container">
     <!-- filter containers-->
-        <div class="ddContainer" v-for="fieldName in ['grade','Product type','size','connection']" :key="fieldName">
+        <div v-for="fieldName in ['grade','Product type','size','connection']" :key="fieldName">
         <dropDownContainer 
             :Pipe="Pipe" 
             :fieldName="fieldName" 
             :key="fieldName+filterGrade+filterType+filterSize+filterConnection" />
         </div>
+        
     </div>
 </template>
 
@@ -41,18 +42,10 @@ export default {
 <style scoped>
 .container{
     width:100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.ddContainer{
     position: relative;
-    min-width: 200px;
-    
-}
-.ShowNow{
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
+    justify-content: space-evenly;
 }
+
 </style>
