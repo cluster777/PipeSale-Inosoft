@@ -11,17 +11,25 @@ export default new Vuex.Store({
     type:[],        //contain unique type
     size:[],        //contain unique size
     connection:[],  //contain unique connection
+    filterState: [],
     ready:false
   },
   mutations: {
     setPipe(state,payload){
-      console.log(payload)
       state.pipeData=payload.pipe.sort()
       state.grade=payload.uniqueGrade.sort()
       state.type=payload.uniqueType.sort()
       state.size=payload.uniqueSize.sort()
       state.connection=payload.uniqueConnection.sort()
       state.ready=true
+    },
+    addFilter(state,fieldName){
+      state.filterState.push(fieldName)
+      
+    },
+    removeFilter(state,fieldName){
+      let s=state.filterState.indexOf(fieldName)
+      if(s!=-1)state.filterState.splice(s,1)
     }
   },
   actions: {
@@ -42,6 +50,12 @@ export default new Vuex.Store({
         // commit the data change
         commit('setPipe',{'pipe':dat.data,'uniqueGrade':[...uniqueGrade],'uniqueType':[...uniqueType],'uniqueSize':[...uniqueSize],'uniqueConnection':[...uniqueConnection]})
       })
+    },
+    addFilter({commit},fieldName){
+      commit ('addFilter',fieldName)
+    },
+    removeFilter({commit},fieldName){
+      commit ('removeFilter',fieldName)
     }
   },
   modules: {

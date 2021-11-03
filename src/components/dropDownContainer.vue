@@ -12,7 +12,7 @@
                         ALL
                     </span>
                 </div>
-                <div v-if="this.filter[this.fieldName]" v-on:click="goToNot('connection')">
+                <div v-if="this.filter[this.fieldName]" v-on:click="goToNot(fieldName)">
                     <span >
                         X
                     </span>
@@ -59,16 +59,18 @@ export default {
         }
     },
     methods:{
-         goToNot(query){
+         goToNot(q){
+            this.$store.dispatch('removeFilter',this.fieldName)
             this.showDropDown=!this.showDropDown
-            console.log("not going to", query)
-            this.$router.push({path:'',query:{
-                    grade:query=="grade" ? "" : this.filterGrade,
-                    type:query=="Product type" ? "" : this.filterType,
-                    size:query=="size" ? "" : this.filterSize ,
-                    connection:query=="connection" ? "" : this.filterConnection
+            console.log("not going to", q)
+            let query={
+                    grade:q=="grade" ? "" : this.filter['grade'],
+                    type:q=="Product type" ? "" : this.filter['Product type'],
+                    size:q=="size" ? "" : this.filter['size'] ,
+                    connection:q=="connection" ? "" : this.filter['connection']
                 }
-            })
+            console.log(query)
+            this.$router.push({path:'',query:query})
         },
         toggleDisplay(){
             this.showDropDown=!this.showDropDown

@@ -72,3 +72,8 @@ actually its depend on requirement:
 
 since the data not too big it still usable to use v-show but for better future performance it will use v-if
 
+### more filtering
+since filter only apply to the next stage its required to keep state which has been updated which is dont so:
+* store a state in store to keep on info about it named(filterState) this will contain filter name
+* if the filter of said filter changed it should delete the filter then push the filter update
+* if the filter update it check the filterState before doing updates

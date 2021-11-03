@@ -60,6 +60,13 @@ export default {
     },
     methods:{
         goTo(query){
+            if(this.$store.state.filterState.indexOf(this.fieldName)!=-1){
+                this.$store.dispatch('removeFilter',this.fieldName)
+                this.$store.dispatch('addFilter',this.fieldName)
+            }
+            else{
+                this.$store.dispatch('addFilter',this.fieldName)
+            }
             console.log(query,this.fieldName)
             this.$router.push({path:'',query:{
                     grade:this.fieldName=="grade" ? query : this.filterGrade,
@@ -76,28 +83,41 @@ export default {
         }
     },
     mounted(){
-
+        let stack=this.$store.state.filterState
+        let passed=[]
+        let i=stack.indexOf(this.fieldName)
+        if(i!=-1){
+            for(i;i>=0;i--){
+                passed.push(stack[i])
+            }
+        }
+        else{
+            for(i=0;i<stack.length;i++){
+                passed.push(stack[i])
+            }
+        }
+        console.log(this.fieldName,passed)
         let pipeFiltered=this.Pipe
         //filter using the one not in the fieldname
         if(this.fieldName=="grade"){
-            if(this.filterSize)pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
-            if(this.filterType)pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
-            if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
+            if(this.filterSize && passed.includes('size'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
+            if(this.filterType && passed.includes('Product type'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
+            if(this.filterConnection && passed.includes('connection'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
         }
         else if(this.fieldName=="Product type"){
-            if(this.filterGrade)pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
-            if(this.filterSize)pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
-            if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
+            if(this.filterGrade && passed.includes('grade'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
+            if(this.filterSize && passed.includes('size'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
+            if(this.filterConnection && passed.includes('connection'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
         }
         else if(this.fieldName=="size"){
-            if(this.filterGrade)pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
-            if(this.filterType)pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
-            if(this.filterConnection)pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
+            if(this.filterGrade && passed.includes('grade'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
+            if(this.filterType && passed.includes('Product type'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
+            if(this.filterConnection && passed.includes('connection'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["connection"]==this.filterConnection)
         }
         else if(this.fieldName=="connection"){
-            if(this.filterGrade)pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
-            if(this.filterSize)pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
-            if(this.filterType)pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
+            if(this.filterGrade && passed.includes('grade'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["grade"]==this.filterGrade)
+            if(this.filterSize && passed.includes('size'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["size"]==this.filterSize)
+            if(this.filterType && passed.includes('Product type'))pipeFiltered=pipeFiltered.filter(pipe=> pipe["Product type"]==this.filterType)
         }
         //count each occurence
         let res=this.UniqueField.reduce((obj,key)=>{
