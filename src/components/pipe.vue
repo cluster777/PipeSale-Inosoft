@@ -90,6 +90,7 @@ export default {
 
 <style scoped>
 .pipeItems{
+    width:100%;
     display:flex;
     align-items: center;
     flex-direction: column;

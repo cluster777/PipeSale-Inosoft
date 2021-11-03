@@ -47,5 +47,13 @@ export default {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+@media only screen and (max-width: 900px) {
+    .container{
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+}
 </style>

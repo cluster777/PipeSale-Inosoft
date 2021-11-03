@@ -2,7 +2,7 @@
     <div>
     <div class="filterBox">
         <div class="filterDescription">
-            connection
+            {{this.fieldName}}
             <div class="filterContent">
                 <div>
                     <span v-if="this.filter[this.fieldName]">
@@ -83,10 +83,9 @@ export default {
     display: flex;
     flex-direction: row;
     border-radius: 20px;
-    padding: 20px 0 20px 0;
+    padding:0 10px 0 10px;
     margin-bottom: 5px;
     position: relative;
-    min-width: 200px;
     border: solid green 2px;
     justify-content: space-evenly;
     align-items: center;

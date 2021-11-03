@@ -123,17 +123,17 @@ export default {
 <style scoped>
 .container{
     position:absolute;
+    z-index: 10;
 }
 .dropDownContainer{
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
-    min-width: 200px;
     display: flex;
     flex-direction: column;
     flex-grow: 2;
     background-color: white;
     border:green solid 2px;
-    padding:  20px 0 20px 0;
+    padding:  10px 0 10px 0;
 }
 .dropDownItem{
     display: flex;
@@ -153,5 +153,18 @@ input{
 }
 .clearButton{
     background-color: red;
+}
+@media only screen and (max-width: 900px) {
+    .dropDownContainer{
+        min-width: 95vw;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
+        background-color: white;
+        border:green solid 2px;
+        padding:  10px 0 10px 0;
+    }
 }
 </style>

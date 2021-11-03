@@ -52,7 +52,7 @@ export default {
 .container{
     display: flex;
     flex-direction: row;
-    width:50%;
+    width:80%;
     align-items: center;
     border:solid 2px black;
 }
@@ -72,5 +72,27 @@ export default {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+@media only screen and (max-width: 900px) {
+    img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 95vw;
+        align-items: center;
+        border:solid 2px black;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
 </style>
