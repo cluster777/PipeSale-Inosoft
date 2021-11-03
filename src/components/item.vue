@@ -2,7 +2,7 @@
     <div class="container">
         <!--Image-->
         <div class="image">
-            <img :src="import('@/assets/200.png')" />
+            <img :src="require('@/assets/200.png')" />
         </div>
         <!--content-->
         <div class="content">
