@@ -34,7 +34,7 @@ export default new Vuex.Store({
   },
   actions: {
     getPipe({commit}){
-      axios.get("http://localhost:8080/pipe.json").then((dat)=>{
+      axios.get("pipe.json").then((dat)=>{
         
         let uniqueGrade=new Set()
         let uniqueType=new Set()
