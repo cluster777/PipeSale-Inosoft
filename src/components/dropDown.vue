@@ -1,7 +1,12 @@
 <template>
     <div class="container">
         <div class="dropDownContainer">
-            <div v-for="option in options"  class="dropDownItem"
+            <div>
+                Search<br>
+                <input v-model="find" />
+                <div v-show="find" v-on:click="find=''">Clear</div>
+            </div>
+            <div v-for="option in Foptions"  class="dropDownItem"
                 :key="option.value+option.count" 
                 :value="option.value" 
                 :count="option.count" v-on:click="goTo(option.value)" >
@@ -21,7 +26,9 @@ export default {
     },
     data:function (){
         return {
-            options:[]
+            options:[],
+            Foptions:[],
+            find:""
         }
     },
     computed:{
@@ -44,6 +51,11 @@ export default {
             return this.$route.query.connection
         }
     },
+    watch:{
+        find:function(){
+            this.filterOptions()
+        }
+    },
     methods:{
         goTo(query){
             console.log(query,this.fieldName)
@@ -54,6 +66,11 @@ export default {
                     connection:this.fieldName=="connection" ? query : this.filterConnection
                 }
             })
+        },
+        filterOptions(){
+            console.log(this.find)
+            if(this.find)this.Foptions=this.options.filter(pipe => pipe.value.toLowerCase().includes(this.find.toLowerCase()))
+            else this.Foptions=this.options
         }
     },
     mounted(){
@@ -96,6 +113,7 @@ export default {
             })
         }
         this.options=options
+        this.Foptions=options
     }
 }
 </script>
