@@ -23,11 +23,13 @@
             V
         </div>
     </div>
+        <transition name="fade">
         <dropDown 
             v-if="this.showDropDown"
             :Pipe="this.Pipe" 
             :fieldName="this.fieldName" 
             :key="this.fieldName+this.filter['grade']+this.filter['Product type']+this.filter['size']+this.filter['connection']" />
+        </transition>
     </div>
 </template>
 
@@ -107,5 +109,11 @@ export default {
     min-width: 50px;
     flex-grow: 2;
     justify-items: center;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

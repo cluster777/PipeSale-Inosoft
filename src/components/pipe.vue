@@ -3,6 +3,7 @@
         <Pipefilter :Pipe="this.Pipe"/>
         <div>
             <hr>
+            Found:
             {{this.pipeCount}}
             <hr>
             <div class="pipeItems">

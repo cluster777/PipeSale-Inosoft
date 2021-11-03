@@ -2,9 +2,11 @@
     <div class="container">
         <div class="dropDownContainer">
             <div>
-                Search<br>
-                <input v-model="find" />
-                <div v-show="find" v-on:click="find=''">Clear</div>
+                <span>Search</span>
+                <div class=inputFilter>
+                    <input v-model="find" size=20 />
+                    <div class="clearButton" v-show="find" v-on:click="find=''">Clear</div>
+                </div>
             </div>
             <div v-for="option in Foptions"  class="dropDownItem"
                 :key="option.value+option.count" 
@@ -129,7 +131,8 @@ export default {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    background-color: black;
+    background-color: white;
+    border:green solid 2px;
     padding:  20px 0 20px 0;
 }
 .dropDownItem{
@@ -137,5 +140,18 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px 5px 10px;
+}
+.inputFilter{
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+input{
+    width:80%;
+}
+.clearButton{
+    background-color: red;
 }
 </style>
