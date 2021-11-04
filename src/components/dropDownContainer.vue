@@ -13,7 +13,7 @@
                     </span>
                 </div>
                 <div v-if="this.filter[this.fieldName]" v-on:click="goToNot(fieldName)">
-                    <span >
+                    <span class='removeFilter'>
                         X
                     </span>
                 </div>
@@ -110,6 +110,12 @@ export default {
     min-width: 50px;
     flex-grow: 2;
     justify-items: center;
+}
+.removeFilter{
+    background-color: red;
+}
+.removeFilter:hover{
+    background-color: green;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;

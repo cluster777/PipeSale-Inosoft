@@ -73,6 +73,13 @@ export default {
     justify-content: space-evenly;
 }
 @media only screen and (max-width: 900px) {
+    .content{
+        flex-grow: 3;
+        display: flex;
+        flex-direction: column;
+        border-left: none;
+        border-top: 2px black solid;
+    }
     img{
         max-width: 100px;
         max-height: 100px;

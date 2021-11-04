@@ -8,7 +8,7 @@
                     <div class="clearButton" v-show="find" v-on:click="find=''">Clear</div>
                 </div>
             </div>
-            <div v-for="option in Foptions"  class="dropDownItem"
+            <div v-for="option in Foptions"  :class="{'dropDownItem':true,active:option.value==filter[fieldName]}"
                 :key="option.value+option.count" 
                 :value="option.value" 
                 :count="option.count" v-on:click="goTo(option.value)" >
@@ -51,6 +51,14 @@ export default {
         },
         filterConnection(){
             return this.$route.query.connection
+        },
+        filter(){
+            let filter={}
+            filter['grade']= this.$route.query.grade ? this.$route.query.grade:''
+            filter['Product type']=this.$route.query.type ? this.$route.query.type:''
+            filter['size']=this.$route.query.size ? this.$route.query.size:''
+            filter['connection']=this.$route.query.connection ? this.$route.query.connection:''
+            return filter
         }
     },
     watch:{
@@ -160,6 +168,10 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px 5px 10px;
+    
+}
+.dropDownItem:hover{
+    background-color: yellow;
 }
 .inputFilter{
     padding: 0 10px 0 10px;
@@ -167,6 +179,9 @@ export default {
     flex-direction: row;
     justify-content: space-between;
 
+}
+.active{
+    background-color: green;
 }
 input{
     width:80%;
