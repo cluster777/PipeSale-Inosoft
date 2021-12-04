@@ -77,3 +77,21 @@ since filter only apply to the next stage its required to keep state which has b
 * store a state in store to keep on info about it named(filterState) this will contain filter name
 * if the filter of said filter changed it should delete the filter then push the filter update
 * if the filter update it check the filterState before doing updates
+example of result
+* if first grade is chosen
+* next type is chosen (this type have been filtered by grade)
+* next size is chosen (this size have been filtered by grade and type)
+* next grade is chosen again (this grade have not been filtered)
+* now in this state should be:
+    * grade filtered by \[size and type\]
+    * type is not filtered
+    * size filtered by \[size\]
+
+## API
+create a flask APP to deploy API 
+create route localhost:5000/api/Pipe work as intended should have been (http://)xx/api/data not xx/api/data
+how to run:
+```
+pip install requirements.txt
+run API.py
+```
